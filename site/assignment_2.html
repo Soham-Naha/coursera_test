@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lan="en-us">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <meta hhtp-equiv="X-UA-Compatible" content="IE = edge">
+    <style>
+    *{
+        box-sizing: border-box;
+        margin:0;
+    }
+    h1{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .p1{
+        background-color: #d3d3d3;
+        margin: 5px;
+        padding: 0 0 5px 5px;
+        border: 3px solid black;
+        float: left;
+    }    
+    section{
+        clear:left;
+        position: absolute;
+    }
+   #p1_1{
+
+        border: 2px solid black;
+        background-color: hotpink !important;
+        text-align: center;
+        float: right;
+        clear:left;
+        width:25%;
+        height:23px;
+    }
+     #p2_2{
+        border: 2px solid black;
+        background-color: red;
+        text-align: center;
+        float:right;
+        clear:left;
+        width:25%;
+        height:23px;
+    }
+     #p3_3{
+        border: 2px solid black;
+        background-color: lightgoldenrodyellow;
+        text-align:center;
+        float:right;
+        clear:left;
+        width:25%;
+        height:23px;
+    }
+    /*********for large devices*********/
+    @media (min-width : 1200px){
+        .p1-lg{
+            width: 32%;
+        }
+    }
+    @media (min-width : 992px) and (max-width : 1199px){
+        .p1-md{
+            width : 48.5%;
+        }
+        .p3-md{
+            width : 98%;
+        }
+    }
+    @media (max-width : 991px){
+        .p1-sm{
+            width : 98.3%;
+        }
+    }
+    </style>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <div class="p1 p1-lg p1-md p1-sm"><p id="p1_1">Chicken</p><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget vehicula turpis. Class aptent taciti sociosqu ad 
+        litora torquent per conubia nostra, per inceptos himenaeos. Aenean malesuada eget ligula ac maximus. Fusce vitae mollis
+        dolor. Vestibulum at rhoncus enim, id luctus odio. Morbi eros ex, semper non erat sit amet, dignissim viverra orci.
+        Nulla consectetur lacinia semper. Nunc aliquet, lectus at efficitur euismod, enim felis tristique nisl, sit amet tempor 
+        odio felis non.</div>
+        <div class="p1 p1-lg p1-md p1-sm"><p id="p2_2" style="color:white">Beef</p><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget vehicula turpis. Class aptent taciti sociosqu ad 
+        litora torquent per conubia nostra, per inceptos himenaeos. Aenean malesuada eget ligula ac maximus. Fusce vitae mollis
+        dolor. Vestibulum at rhoncus enim, id luctus odio. Morbi eros ex, semper non erat sit amet, dignissim viverra orci.
+        Nulla consectetur lacinia semper. Nunc aliquet, lectus at efficitur euismod, enim felis tristique nisl, sit amet tempor 
+        odio felis non.</div>
+        <div class="p1 p1-lg p3-md p1-sm"><p id="p3_3">Sushi</p><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget vehicula turpis. Class aptent taciti sociosqu ad 
+        litora torquent per conubia nostra, per inceptos himenaeos. Aenean malesuada eget ligula ac maximus. Fusce vitae mollis
+        dolor. Vestibulum at rhoncus enim, id luctus odio. Morbi eros ex, semper non erat sit amet, dignissim viverra orci.
+        Nulla consectetur lacinia semper. Nunc aliquet, lectus at efficitur euismod, enim felis tristique nisl, sit amet tempor 
+        odio felis non.</div>
+</body>
+</html>
